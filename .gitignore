@@ -1,8 +1,8 @@
 # Ignore everything
 *
 # But not these files...
-!.gitignore
-
+!dist
+!dist/static
 !dist/static/css/*
 !dist/static/font/*
 !dist/static/img/*
