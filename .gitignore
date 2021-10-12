@@ -1,9 +1,15 @@
 # Ignore everything
 *
+# Whitelist anything that's a directory
+!*/
+
+# Whitelist some files
+!.gitignore
+
 # But not these files...
 !dist
 !dist/static
 !dist/static/css/*
 !dist/static/font/*
-!dist/static/img/*
+!dist/static/img/**/*
 !dist/static/js/*
