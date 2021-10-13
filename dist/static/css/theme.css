@@ -6616,6 +6616,14 @@ body {
   color: #606060;
 }
 
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  color: #FAB600;
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   color: #0064A6;
   font-size: 1.4em;
@@ -8017,13 +8025,18 @@ div.header .banner .portada-instagram img.redes {
   background: #011555;
   background: linear-gradient(330deg, #011555 0%, #0064a6 35%, #0064a6 100%);
   color: #FFFFFF;
+  font-size: 1em;
   padding: 0.75em 0;
+  text-align: left;
 }
 @media screen and (max-width: 639px) {
   .footer div.ed-item {
     padding-top: 1em;
     text-align: center;
   }
+}
+.footer div.copy {
+  padding: 1em 0;
 }
 @media screen and (max-width: 639px) {
   .footer div.copy {
