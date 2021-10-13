@@ -6617,7 +6617,7 @@ body {
 }
 
 h1, h2 {
-  font: normal 2em "Montserrat", sans-serif;
+  font: bold 2em "Montserrat", sans-serif;
   color: #FAB600;
   padding: 0;
   margin: 0;
