@@ -6937,12 +6937,12 @@ div.header {
     padding-bottom: 0;
   }
 }
-div.header .background {
+div.header > div.background {
   position: absolute;
   height: 100%;
   width: 100%;
 }
-div.header .background img {
+div.header > div.background img {
   height: 100%;
   object-fit: cover;
   width: 100%;
